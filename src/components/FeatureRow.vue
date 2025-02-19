@@ -34,10 +34,27 @@ export default {
 .feature-row {
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
+  text-align: center;
+  margin-bottom: 15px;
+  border-radius: 8px;
 }
 
-select, input {
-  margin-right: 8px;
+.feature-row select {
+  width: 100px;
+  margin-right: 15px;
+}
+
+.feature-row input {
+  flex: 1;
+}
+
+.feature-row button {
+  background-color: #ff6666;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.feature-row button:hover {
+  background-color: #e05d5d;
 }
 </style>
